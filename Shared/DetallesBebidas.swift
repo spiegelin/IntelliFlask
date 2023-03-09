@@ -32,6 +32,7 @@ struct DetallesBebidas: View {
                     // Espacio Vacío
                     Text("                 ")
                     
+                    // Favoritos
                     VStack {
                         if bebida.isFavorite {
                             Image(systemName: "star.fill")
