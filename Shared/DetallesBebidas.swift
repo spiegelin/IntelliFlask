@@ -50,6 +50,12 @@ struct DetallesBebidas: View {
             .padding()
 
             Spacer()
+            
+            Button("Preparar") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
+            .offset(y: 100)
+                
         }
         .navigationTitle(bebida.nombre)
         .navigationBarTitleDisplayMode(.inline)
