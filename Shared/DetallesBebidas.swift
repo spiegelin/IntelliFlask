@@ -22,15 +22,28 @@ struct DetallesBebidas: View {
                     .offset(y: 20)
                 
                 HStack {
-                    Text("Guardar")
-                    Text("Favoritos")
+                    VStack {
+                        Image(systemName: "moon")
+                            .foregroundColor(.yellow)
+                        Text("Guardar")
+                    }
+                    
+                    // Espacio Vacío
+                    Text("                 ")
+                    
+                    VStack {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                        Text("Favoritos")
+                    }
+                    
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
-                .offset(y: 40)
+                .offset(y: 70)
 
                 Divider()
-                Text(bebida.instrucciones).offset(y:30)
+                Text(bebida.instrucciones).offset(y:70)
             }
             .padding()
 
