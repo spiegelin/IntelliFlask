@@ -23,8 +23,9 @@ struct DetallesBebidas: View {
                 
                 HStack {
                     VStack {
-                        Image(systemName: "moon")
+                        Image(systemName: "square.and.arrow.down")
                             .foregroundColor(.yellow)
+                        Spacer()
                         Text("Guardar")
                     }
                     
@@ -32,8 +33,9 @@ struct DetallesBebidas: View {
                     Text("                 ")
                     
                     VStack {
-                        Image(systemName: "star.fill")
+                        Image(systemName: "star")
                             .foregroundColor(.yellow)
+                        Spacer()
                         Text("Favoritos")
                     }
                     
