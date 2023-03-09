@@ -54,7 +54,7 @@ struct DetallesBebidas: View {
             Button("Preparar") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }
-            .offset(y: 90)
+            .offset(y: 70)
                 
         }
         .navigationTitle(bebida.nombre)
