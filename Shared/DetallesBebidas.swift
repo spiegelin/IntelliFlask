@@ -51,9 +51,7 @@ struct DetallesBebidas: View {
 
             Spacer()
             
-            Button("Preparar") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-            }
+            PrepararButton()
             .offset(y: 70)
                 
         }
