@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BFE9A7629B8EF44003599F6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A7529B8EF44003599F6 /* Tests_iOS.swift */; };
+		7BFE9A7829B8EF44003599F6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A7729B8EF44003599F6 /* Tests_iOSLaunchTests.swift */; };
+		7BFE9A8229B8EF44003599F6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A8129B8EF44003599F6 /* Tests_macOS.swift */; };
+		7BFE9A8429B8EF44003599F6 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A8329B8EF44003599F6 /* Tests_macOSLaunchTests.swift */; };
+		7BFE9A8529B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A5D29B8EF42003599F6 /* IntelliFlaskApp.swift */; };
+		7BFE9A8629B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A5D29B8EF42003599F6 /* IntelliFlaskApp.swift */; };
+		7BFE9A8729B8EF44003599F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A5E29B8EF42003599F6 /* ContentView.swift */; };
+		7BFE9A8829B8EF44003599F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A5E29B8EF42003599F6 /* ContentView.swift */; };
+		7BFE9A8929B8EF44003599F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE9A5F29B8EF44003599F6 /* Assets.xcassets */; };
+		7BFE9A8A29B8EF44003599F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE9A5F29B8EF44003599F6 /* Assets.xcassets */; };
+		7BFE9ADD29B9946B003599F6 /* Bebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9ADC29B9946A003599F6 /* Bebidas.swift */; };
+		7BFE9ADE29B9946B003599F6 /* Bebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9ADC29B9946A003599F6 /* Bebidas.swift */; };
+		7BFE9AE329B996B4003599F6 /* BebidasUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AE229B996B4003599F6 /* BebidasUI.swift */; };
+		7BFE9AE429B996B4003599F6 /* BebidasUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AE229B996B4003599F6 /* BebidasUI.swift */; };
+		7BFE9AE629B99D18003599F6 /* DetallesBebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AE529B99D18003599F6 /* DetallesBebidas.swift */; };
+		7BFE9AE729B99D18003599F6 /* DetallesBebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AE529B99D18003599F6 /* DetallesBebidas.swift */; };
+		7BFE9AE929B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AE829B99DFE003599F6 /* ImagenBebidaPrincipal.swift */; };
+		7BFE9AEA29B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AE829B99DFE003599F6 /* ImagenBebidaPrincipal.swift */; };
+		7BFE9AEC29B9AEB7003599F6 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */; };
+		7BFE9AED29B9AEB7003599F6 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BFE9A7229B8EF44003599F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFE9A5829B8EF42003599F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFE9A6329B8EF44003599F6;
+			remoteInfo = "IntelliFlask (iOS)";
+		};
+		7BFE9A7E29B8EF44003599F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFE9A5829B8EF42003599F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFE9A6929B8EF44003599F6;
+			remoteInfo = "IntelliFlask (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BFE9A5D29B8EF42003599F6 /* IntelliFlaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliFlaskApp.swift; sourceTree = "<group>"; };
+		7BFE9A5E29B8EF42003599F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BFE9A5F29B8EF44003599F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BFE9A6429B8EF44003599F6 /* IntelliFlask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliFlask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFE9A6A29B8EF44003599F6 /* IntelliFlask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliFlask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFE9A6C29B8EF44003599F6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7BFE9A7129B8EF44003599F6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFE9A7529B8EF44003599F6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		7BFE9A7729B8EF44003599F6 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		7BFE9A7D29B8EF44003599F6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFE9A8129B8EF44003599F6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7BFE9A8329B8EF44003599F6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		7BFE9ADC29B9946A003599F6 /* Bebidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebidas.swift; sourceTree = "<group>"; };
+		7BFE9AE229B996B4003599F6 /* BebidasUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidasUI.swift; sourceTree = "<group>"; };
+		7BFE9AE529B99D18003599F6 /* DetallesBebidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesBebidas.swift; sourceTree = "<group>"; };
+		7BFE9AE829B99DFE003599F6 /* ImagenBebidaPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenBebidaPrincipal.swift; sourceTree = "<group>"; };
+		7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFE9A6129B8EF44003599F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A6729B8EF44003599F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A6E29B8EF44003599F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A7A29B8EF44003599F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BFE9A5729B8EF42003599F6 = {
+			isa = PBXGroup;
+			children = (
+				7BFE9A5C29B8EF42003599F6 /* Shared */,
+				7BFE9A6B29B8EF44003599F6 /* macOS */,
+				7BFE9A7429B8EF44003599F6 /* Tests iOS */,
+				7BFE9A8029B8EF44003599F6 /* Tests macOS */,
+				7BFE9A6529B8EF44003599F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BFE9A5C29B8EF42003599F6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE9A5D29B8EF42003599F6 /* IntelliFlaskApp.swift */,
+				7BFE9A5E29B8EF42003599F6 /* ContentView.swift */,
+				7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */,
+				7BFE9AE229B996B4003599F6 /* BebidasUI.swift */,
+				7BFE9AE529B99D18003599F6 /* DetallesBebidas.swift */,
+				7BFE9AE829B99DFE003599F6 /* ImagenBebidaPrincipal.swift */,
+				7BFE9ADC29B9946A003599F6 /* Bebidas.swift */,
+				7BFE9A5F29B8EF44003599F6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7BFE9A6529B8EF44003599F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE9A6429B8EF44003599F6 /* IntelliFlask.app */,
+				7BFE9A6A29B8EF44003599F6 /* IntelliFlask.app */,
+				7BFE9A7129B8EF44003599F6 /* Tests iOS.xctest */,
+				7BFE9A7D29B8EF44003599F6 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BFE9A6B29B8EF44003599F6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE9A6C29B8EF44003599F6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7BFE9A7429B8EF44003599F6 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE9A7529B8EF44003599F6 /* Tests_iOS.swift */,
+				7BFE9A7729B8EF44003599F6 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		7BFE9A8029B8EF44003599F6 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE9A8129B8EF44003599F6 /* Tests_macOS.swift */,
+				7BFE9A8329B8EF44003599F6 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BFE9A6329B8EF44003599F6 /* IntelliFlask (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFE9A8D29B8EF44003599F6 /* Build configuration list for PBXNativeTarget "IntelliFlask (iOS)" */;
+			buildPhases = (
+				7BFE9A6029B8EF44003599F6 /* Sources */,
+				7BFE9A6129B8EF44003599F6 /* Frameworks */,
+				7BFE9A6229B8EF44003599F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IntelliFlask (iOS)";
+			productName = "IntelliFlask (iOS)";
+			productReference = 7BFE9A6429B8EF44003599F6 /* IntelliFlask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BFE9A6929B8EF44003599F6 /* IntelliFlask (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFE9A9029B8EF44003599F6 /* Build configuration list for PBXNativeTarget "IntelliFlask (macOS)" */;
+			buildPhases = (
+				7BFE9A6629B8EF44003599F6 /* Sources */,
+				7BFE9A6729B8EF44003599F6 /* Frameworks */,
+				7BFE9A6829B8EF44003599F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IntelliFlask (macOS)";
+			productName = "IntelliFlask (macOS)";
+			productReference = 7BFE9A6A29B8EF44003599F6 /* IntelliFlask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BFE9A7029B8EF44003599F6 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFE9A9329B8EF44003599F6 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				7BFE9A6D29B8EF44003599F6 /* Sources */,
+				7BFE9A6E29B8EF44003599F6 /* Frameworks */,
+				7BFE9A6F29B8EF44003599F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFE9A7329B8EF44003599F6 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 7BFE9A7129B8EF44003599F6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7BFE9A7C29B8EF44003599F6 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFE9A9629B8EF44003599F6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				7BFE9A7929B8EF44003599F6 /* Sources */,
+				7BFE9A7A29B8EF44003599F6 /* Frameworks */,
+				7BFE9A7B29B8EF44003599F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFE9A7F29B8EF44003599F6 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 7BFE9A7D29B8EF44003599F6 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BFE9A5829B8EF42003599F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7BFE9A6329B8EF44003599F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7BFE9A6929B8EF44003599F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7BFE9A7029B8EF44003599F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7BFE9A6329B8EF44003599F6;
+					};
+					7BFE9A7C29B8EF44003599F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7BFE9A6929B8EF44003599F6;
+					};
+				};
+			};
+			buildConfigurationList = 7BFE9A5B29B8EF42003599F6 /* Build configuration list for PBXProject "IntelliFlask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BFE9A5729B8EF42003599F6;
+			productRefGroup = 7BFE9A6529B8EF44003599F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BFE9A6329B8EF44003599F6 /* IntelliFlask (iOS) */,
+				7BFE9A6929B8EF44003599F6 /* IntelliFlask (macOS) */,
+				7BFE9A7029B8EF44003599F6 /* Tests iOS */,
+				7BFE9A7C29B8EF44003599F6 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BFE9A6229B8EF44003599F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFE9A8929B8EF44003599F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A6829B8EF44003599F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFE9A8A29B8EF44003599F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A6F29B8EF44003599F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A7B29B8EF44003599F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFE9A6029B8EF44003599F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFE9AE929B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */,
+				7BFE9A8729B8EF44003599F6 /* ContentView.swift in Sources */,
+				7BFE9ADD29B9946B003599F6 /* Bebidas.swift in Sources */,
+				7BFE9AEC29B9AEB7003599F6 /* Inicio.swift in Sources */,
+				7BFE9AE329B996B4003599F6 /* BebidasUI.swift in Sources */,
+				7BFE9A8529B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */,
+				7BFE9AE629B99D18003599F6 /* DetallesBebidas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A6629B8EF44003599F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFE9AEA29B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */,
+				7BFE9A8829B8EF44003599F6 /* ContentView.swift in Sources */,
+				7BFE9ADE29B9946B003599F6 /* Bebidas.swift in Sources */,
+				7BFE9AED29B9AEB7003599F6 /* Inicio.swift in Sources */,
+				7BFE9AE429B996B4003599F6 /* BebidasUI.swift in Sources */,
+				7BFE9A8629B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */,
+				7BFE9AE729B99D18003599F6 /* DetallesBebidas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A6D29B8EF44003599F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFE9A7829B8EF44003599F6 /* Tests_iOSLaunchTests.swift in Sources */,
+				7BFE9A7629B8EF44003599F6 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFE9A7929B8EF44003599F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFE9A8429B8EF44003599F6 /* Tests_macOSLaunchTests.swift in Sources */,
+				7BFE9A8229B8EF44003599F6 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BFE9A7329B8EF44003599F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFE9A6329B8EF44003599F6 /* IntelliFlask (iOS) */;
+			targetProxy = 7BFE9A7229B8EF44003599F6 /* PBXContainerItemProxy */;
+		};
+		7BFE9A7F29B8EF44003599F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFE9A6929B8EF44003599F6 /* IntelliFlask (macOS) */;
+			targetProxy = 7BFE9A7E29B8EF44003599F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BFE9A8B29B8EF44003599F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BFE9A8C29B8EF44003599F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7BFE9A8E29B8EF44003599F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = intelliflasksksk.IntelliFlask;
+				PRODUCT_NAME = IntelliFlask;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BFE9A8F29B8EF44003599F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = intelliflasksksk.IntelliFlask;
+				PRODUCT_NAME = IntelliFlask;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BFE9A9129B8EF44003599F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = intelliflasksksk.IntelliFlask;
+				PRODUCT_NAME = IntelliFlask;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BFE9A9229B8EF44003599F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = intelliflasksksk.IntelliFlask;
+				PRODUCT_NAME = IntelliFlask;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7BFE9A9429B8EF44003599F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "intelliflasksksk.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IntelliFlask (iOS)";
+			};
+			name = Debug;
+		};
+		7BFE9A9529B8EF44003599F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "intelliflasksksk.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IntelliFlask (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BFE9A9729B8EF44003599F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "intelliflasksksk.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "IntelliFlask (macOS)";
+			};
+			name = Debug;
+		};
+		7BFE9A9829B8EF44003599F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC56PW5P26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "intelliflasksksk.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "IntelliFlask (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BFE9A5B29B8EF42003599F6 /* Build configuration list for PBXProject "IntelliFlask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFE9A8B29B8EF44003599F6 /* Debug */,
+				7BFE9A8C29B8EF44003599F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFE9A8D29B8EF44003599F6 /* Build configuration list for PBXNativeTarget "IntelliFlask (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFE9A8E29B8EF44003599F6 /* Debug */,
+				7BFE9A8F29B8EF44003599F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFE9A9029B8EF44003599F6 /* Build configuration list for PBXNativeTarget "IntelliFlask (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFE9A9129B8EF44003599F6 /* Debug */,
+				7BFE9A9229B8EF44003599F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFE9A9329B8EF44003599F6 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFE9A9429B8EF44003599F6 /* Debug */,
+				7BFE9A9529B8EF44003599F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFE9A9629B8EF44003599F6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFE9A9729B8EF44003599F6 /* Debug */,
+				7BFE9A9829B8EF44003599F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BFE9A5829B8EF42003599F6 /* Project object */;
+}
