@@ -35,6 +35,7 @@ struct ContentView: View {
                     Label("Favoritos", systemImage: "heart")
                 }
                 .tag(Tab.favoritos)
+            
         }
         
     }
