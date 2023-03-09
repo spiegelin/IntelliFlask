@@ -33,8 +33,12 @@ struct DetallesBebidas: View {
                     Text("                 ")
                     
                     VStack {
-                        Image(systemName: "star")
-                            .foregroundColor(.yellow)
+                        if bebida.isFavorite {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.yellow)
+                        } else {
+                            Image(systemName: "star")
+                        }
                         Spacer()
                         Text("Favoritos")
                     }
