@@ -29,6 +29,8 @@
 		7BFE9AED29B9AEB7003599F6 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */; };
 		7BFE9AEF29BA38A4003599F6 /* FavoritosUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AEE29BA38A4003599F6 /* FavoritosUI.swift */; };
 		7BFE9AF029BA38A4003599F6 /* FavoritosUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AEE29BA38A4003599F6 /* FavoritosUI.swift */; };
+		7BFE9AF229BA451A003599F6 /* PrepararButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AF129BA451A003599F6 /* PrepararButton.swift */; };
+		7BFE9AF329BA451A003599F6 /* PrepararButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9AF129BA451A003599F6 /* PrepararButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		7BFE9AE829B99DFE003599F6 /* ImagenBebidaPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenBebidaPrincipal.swift; sourceTree = "<group>"; };
 		7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
 		7BFE9AEE29BA38A4003599F6 /* FavoritosUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosUI.swift; sourceTree = "<group>"; };
+		7BFE9AF129BA451A003599F6 /* PrepararButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepararButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,7 @@
 				7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */,
 				7BFE9AE229B996B4003599F6 /* BebidasUI.swift */,
 				7BFE9AE529B99D18003599F6 /* DetallesBebidas.swift */,
+				7BFE9AF129BA451A003599F6 /* PrepararButton.swift */,
 				7BFE9AE829B99DFE003599F6 /* ImagenBebidaPrincipal.swift */,
 				7BFE9ADC29B9946A003599F6 /* Bebidas.swift */,
 				7BFE9A5F29B8EF44003599F6 /* Assets.xcassets */,
@@ -326,6 +330,7 @@
 				7BFE9AE929B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */,
 				7BFE9A8729B8EF44003599F6 /* ContentView.swift in Sources */,
 				7BFE9ADD29B9946B003599F6 /* Bebidas.swift in Sources */,
+				7BFE9AF229BA451A003599F6 /* PrepararButton.swift in Sources */,
 				7BFE9AEC29B9AEB7003599F6 /* Inicio.swift in Sources */,
 				7BFE9AE329B996B4003599F6 /* BebidasUI.swift in Sources */,
 				7BFE9A8529B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */,
@@ -341,6 +346,7 @@
 				7BFE9AEA29B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */,
 				7BFE9A8829B8EF44003599F6 /* ContentView.swift in Sources */,
 				7BFE9ADE29B9946B003599F6 /* Bebidas.swift in Sources */,
+				7BFE9AF329BA451A003599F6 /* PrepararButton.swift in Sources */,
 				7BFE9AED29B9AEB7003599F6 /* Inicio.swift in Sources */,
 				7BFE9AE429B996B4003599F6 /* BebidasUI.swift in Sources */,
 				7BFE9A8629B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */,
