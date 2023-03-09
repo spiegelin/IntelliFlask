@@ -13,6 +13,7 @@ struct ContentView: View {
     enum Tab {
         case inicio
         case lista
+        case favoritos
     }
     
     var body: some View {
@@ -28,6 +29,12 @@ struct ContentView: View {
                     Label("Bebidas", systemImage: "moon.fill")
                 }
                 .tag(Tab.lista)
+            
+            FavoritosUI()
+                .tabItem {
+                    Label("Favoritos", systemImage: "heart")
+                }
+                .tag(Tab.favoritos)
         }
         
     }
