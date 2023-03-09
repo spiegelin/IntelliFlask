@@ -8,18 +8,9 @@
 import SwiftUI
 
 struct BebidasUI: View {
-    // Cuando este en true, solo se mostraran los favoritos
-    @State private var showFavoritesOnly = false
-    
-    var filtered: [Bebida] {
-            bebidas.filter { bebida in
-                (!showFavoritesOnly || bebida.isFavorite)
-            }
-    }
-    
     var body: some View {
         NavigationView {
-            List(filtered) { bebida in
+            List(bebidas) { bebida in
                 NavigationLink {
                     DetallesBebidas(bebida: bebida)
                 } label: {
