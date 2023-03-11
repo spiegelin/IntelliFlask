@@ -56,7 +56,7 @@ struct DetallesBebidas: View {
 
             Spacer()
             
-            PrepararButton()
+            PrepararButton(bebida: bebidas[0])
             .offset(y: 70)
                 
         }
