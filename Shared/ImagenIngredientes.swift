@@ -24,3 +24,8 @@ struct ImagenIngredientes_Previews: PreviewProvider {
         ImagenIngredientes(image: Image("Bacardí"))
     }
 }
+
+
+
+
+
