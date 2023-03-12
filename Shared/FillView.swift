@@ -14,7 +14,9 @@ struct ProgressBar: View {
         VStack {
             Text("\(Int(progress * 100))%")
                 .font(.title)
+                .foregroundColor(Color.black)
                 .padding(.bottom, 10)
+                
             ZStack(alignment: .leading) {
                 Rectangle()
                     .foregroundColor(.gray)

@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key></key>
+	<string></string>
+	<key>UI Color</key>
+	<dict>
+		<key>Label</key>
+		<dict>
+			<key>Dynamic</key>
+			<true/>
+			<key>Light</key>
+			<string>#FFFFFF</string>
+		</dict>
+		<key>SystemBackgroundColor</key>
+		<string>#000026</string>
+	</dict>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>
