@@ -24,6 +24,11 @@ class BluetoothViewModel: NSObject, ObservableObject {
         guard let peripheral = selectedPeripheral else { return }
         centralManager?.connect(peripheral, options: nil)
     }
+    
+    func disconnect() {
+        guard let peripheral = selectedPeripheral else { return }
+        centralManager?.cancelPeripheralConnection(peripheral)
+    }
 }
 
 extension BluetoothViewModel: CBCentralManagerDelegate {
@@ -42,10 +47,17 @@ extension BluetoothViewModel: CBCentralManagerDelegate {
     
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         self.connectionStatus = "Conexión Exitosa"
+        print("Conectado")
     }
     
     func centralManager(_ central: CBCentralManager, didFailToConnect peripheral: CBPeripheral, error: Error?) {
         self.connectionStatus = "No se completó la Conexión"
+        print("No jaló la conexión")
+    }
+    
+    func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: Error?) {
+        self.connectionStatus = "Desconectado"
+        print("Desconectado")
     }
 }
 
@@ -54,20 +66,30 @@ struct Bluetooth_Desvergue: View {
     
     var body: some View {
         NavigationView {
-            List(bluetoothViewModel.peripheralNames, id: \.self) { peripheralName in
-                Button(action: {
-                    if let index = bluetoothViewModel.peripheralNames.firstIndex(of: peripheralName) {
-                        bluetoothViewModel.selectedPeripheral = bluetoothViewModel.peripherals[index]
-                        bluetoothViewModel.connect()
+            VStack {
+                List(bluetoothViewModel.peripheralNames, id: \.self) { peripheralName in
+                    Button(action: {
+                        if let index = bluetoothViewModel.peripheralNames.firstIndex(of: peripheralName) {
+                            bluetoothViewModel.selectedPeripheral = bluetoothViewModel.peripherals[index]
+                            bluetoothViewModel.connect()
+                        }
+                    }) {
+                        Text(peripheralName)
                     }
-                }) {
-                    Text(peripheralName)
                 }
+                .navigationTitle("Dispositivos Cerca")
+                Spacer()
+                Button("Desconectar", action: {
+                    bluetoothViewModel.disconnect()
+                }).offset(x:-100).padding()
+                Text(bluetoothViewModel.connectionStatus).offset(x:100, y:-45)
             }
-            .navigationTitle("Dispositivos Cerca")
-            .navigationBarItems(trailing:
-                Text(bluetoothViewModel.connectionStatus)
-            )
+        }
+        .onAppear() {
+            bluetoothViewModel.objectWillChange.send()
+        }
+        .onDisappear() {
+            bluetoothViewModel.disconnect()
         }
     }
 }
@@ -77,6 +99,7 @@ struct Bluetooth_Desvergue_Previews: PreviewProvider {
         Bluetooth_Desvergue()
     }
 }
+
 
 
 
