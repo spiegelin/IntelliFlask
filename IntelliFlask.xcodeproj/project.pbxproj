@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B36954C29BD557C00C46504 /* FrasesPreparando.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36954B29BD557C00C46504 /* FrasesPreparando.swift */; };
+		7B36954D29BD557C00C46504 /* FrasesPreparando.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36954B29BD557C00C46504 /* FrasesPreparando.swift */; };
 		7B8879AB29BB613800970D78 /* PreparandoUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8879AA29BB613800970D78 /* PreparandoUI.swift */; };
 		7B8879AC29BB613800970D78 /* PreparandoUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8879AA29BB613800970D78 /* PreparandoUI.swift */; };
 		7B8879AE29BBF31D00970D78 /* ImagenIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8879AD29BBF31D00970D78 /* ImagenIngredientes.swift */; };
 		7B8879AF29BBF31D00970D78 /* ImagenIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8879AD29BBF31D00970D78 /* ImagenIngredientes.swift */; };
+		7B8879B429BD4B9400970D78 /* Bluetooth Desvergue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8879B329BD4B9400970D78 /* Bluetooth Desvergue.swift */; };
+		7B8879B529BD4B9400970D78 /* Bluetooth Desvergue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8879B329BD4B9400970D78 /* Bluetooth Desvergue.swift */; };
 		7BFE9A7629B8EF44003599F6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A7529B8EF44003599F6 /* Tests_iOS.swift */; };
 		7BFE9A7829B8EF44003599F6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A7729B8EF44003599F6 /* Tests_iOSLaunchTests.swift */; };
 		7BFE9A8229B8EF44003599F6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE9A8129B8EF44003599F6 /* Tests_macOS.swift */; };
@@ -55,8 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B36954B29BD557C00C46504 /* FrasesPreparando.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrasesPreparando.swift; sourceTree = "<group>"; };
 		7B8879AA29BB613800970D78 /* PreparandoUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparandoUI.swift; sourceTree = "<group>"; };
 		7B8879AD29BBF31D00970D78 /* ImagenIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenIngredientes.swift; sourceTree = "<group>"; };
+		7B8879B329BD4B9400970D78 /* Bluetooth Desvergue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bluetooth Desvergue.swift"; sourceTree = "<group>"; };
 		7BFE9A5D29B8EF42003599F6 /* IntelliFlaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliFlaskApp.swift; sourceTree = "<group>"; };
 		7BFE9A5E29B8EF42003599F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BFE9A5F29B8EF44003599F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,12 +132,14 @@
 			children = (
 				7BFE9A5D29B8EF42003599F6 /* IntelliFlaskApp.swift */,
 				7BFE9A5E29B8EF42003599F6 /* ContentView.swift */,
+				7B8879B329BD4B9400970D78 /* Bluetooth Desvergue.swift */,
 				7BFE9AEE29BA38A4003599F6 /* FavoritosUI.swift */,
 				7BFE9AEB29B9AEB7003599F6 /* Inicio.swift */,
 				7BFE9AE229B996B4003599F6 /* BebidasUI.swift */,
 				7BFE9AE529B99D18003599F6 /* DetallesBebidas.swift */,
 				7BFE9AF129BA451A003599F6 /* PrepararButton.swift */,
 				7B8879AA29BB613800970D78 /* PreparandoUI.swift */,
+				7B36954B29BD557C00C46504 /* FrasesPreparando.swift */,
 				7BFE9AE829B99DFE003599F6 /* ImagenBebidaPrincipal.swift */,
 				7B8879AD29BBF31D00970D78 /* ImagenIngredientes.swift */,
 				7BFE9ADC29B9946A003599F6 /* Bebidas.swift */,
@@ -335,12 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8879B429BD4B9400970D78 /* Bluetooth Desvergue.swift in Sources */,
 				7BFE9AE929B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */,
 				7BFE9A8729B8EF44003599F6 /* ContentView.swift in Sources */,
 				7BFE9ADD29B9946B003599F6 /* Bebidas.swift in Sources */,
 				7B8879AB29BB613800970D78 /* PreparandoUI.swift in Sources */,
 				7B8879AE29BBF31D00970D78 /* ImagenIngredientes.swift in Sources */,
 				7BFE9AF229BA451A003599F6 /* PrepararButton.swift in Sources */,
+				7B36954C29BD557C00C46504 /* FrasesPreparando.swift in Sources */,
 				7BFE9AEC29B9AEB7003599F6 /* Inicio.swift in Sources */,
 				7BFE9AE329B996B4003599F6 /* BebidasUI.swift in Sources */,
 				7BFE9A8529B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */,
@@ -353,12 +363,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8879B529BD4B9400970D78 /* Bluetooth Desvergue.swift in Sources */,
 				7BFE9AEA29B99DFE003599F6 /* ImagenBebidaPrincipal.swift in Sources */,
 				7BFE9A8829B8EF44003599F6 /* ContentView.swift in Sources */,
 				7BFE9ADE29B9946B003599F6 /* Bebidas.swift in Sources */,
 				7B8879AC29BB613800970D78 /* PreparandoUI.swift in Sources */,
 				7B8879AF29BBF31D00970D78 /* ImagenIngredientes.swift in Sources */,
 				7BFE9AF329BA451A003599F6 /* PrepararButton.swift in Sources */,
+				7B36954D29BD557C00C46504 /* FrasesPreparando.swift in Sources */,
 				7BFE9AED29B9AEB7003599F6 /* Inicio.swift in Sources */,
 				7BFE9AE429B996B4003599F6 /* BebidasUI.swift in Sources */,
 				7BFE9A8629B8EF44003599F6 /* IntelliFlaskApp.swift in Sources */,
@@ -521,7 +533,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IntelliFlask--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for Bluetooth use";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow for Bluetooth use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -552,7 +567,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IntelliFlask--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for Bluetooth use";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow for Bluetooth use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

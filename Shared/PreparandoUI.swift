@@ -11,11 +11,14 @@ struct PreparandoUI: View {
     // Cambiar el progreso a que sea el que tiene del vaso
     var progress = 0.3
     var bebida: Bebida
+    var frase = frases.randomElement()
+    var numIngrediente = 0
     
     var body: some View {
         VStack {
-            Text("No se la piense, el alcohol es del alma...").padding()
+            Text(frase ?? "El alcohol es del alma").padding()
             ProgressView(value: progress)
+            Text("Ingrese: \(bebida.ingredientes[numIngrediente])")
             Spacer()
             ImagenIngredientes(image: bebida.imagen_ingredientes)
                 .offset(y: -40)

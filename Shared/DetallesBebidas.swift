@@ -26,7 +26,7 @@ struct DetallesBebidas: View {
                         Image(systemName: "square.and.arrow.down")
                             .foregroundColor(.yellow)
                         Spacer()
-                        Text("Guardar")
+                        Text("Compartir")
                     }
                     
                     // Espacio Vacío
@@ -56,8 +56,8 @@ struct DetallesBebidas: View {
 
             Spacer()
             
-            PrepararButton(bebida: bebidas[0])
-            .offset(y: 70)
+            PrepararButton(bebida: bebida)
+            .offset(y: 60)
                 
         }
         .navigationTitle(bebida.nombre)
