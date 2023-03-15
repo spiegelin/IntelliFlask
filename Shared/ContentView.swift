@@ -37,11 +37,13 @@ struct ContentView: View {
                 }
                 .tag(Tab.favoritos)
             
-            Bluetooth_Desvergue()
+            /*
+            HTTPRequest()
                 .tabItem {
                     Label("Connect", systemImage: "bolt.horizontal.circle.fill")
                 }
                 .tag(Tab.bluetooth)
+            */
             
         }
         
