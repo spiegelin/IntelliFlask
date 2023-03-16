@@ -13,20 +13,23 @@ struct HTTPWaterLevel: View {
     var body: some View {
         VStack {
             // Repetir el request cada 1 segundo
-            let timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
+            let timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { timer in
                 sendRequest()
+                
+                // Extra
+                RunLoop.current.add(timer, forMode: .common)
             }
             
             // Parsear el texto html del request
             let prefix = "L:"
             if let startIndex = responseText.range(of: prefix)?.upperBound,
-               let endIndex = responseText[startIndex...].firstIndex(where: { !("0"..."9").contains($0) }) {
+               let endIndex = responseText.range(of: "</body>")?.lowerBound {
                 let temp = String(responseText[startIndex..<endIndex])
                 
                 
                 // UI para mostrar la barra
                 let progress: Double = Double(temp)!
-                Text("\(Int(progress * 100))%")
+                Text("\(Int(progress*100))%") // progress*100
                     .font(.title)
                     .foregroundColor(Color.black)
                     .padding(.bottom, 10)

@@ -19,6 +19,14 @@ struct Inicio: View {
                 .multilineTextAlignment(.center)
                 .offset(y: -270)
             
+            Text("By Ingeniebrios")
+                .font(.system(size: 15))
+                .fontWeight(.bold)
+                .foregroundColor(Color.black)
+                .multilineTextAlignment(.center)
+                .offset(x: 65, y: -235)
+            
+            
             HTTPRequest()
             //TemperatureView()
                 .fontWeight(.heavy)

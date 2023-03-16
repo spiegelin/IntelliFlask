@@ -13,7 +13,7 @@ struct HTTPRequest: View {
     var body: some View {
         VStack {
             // _timer -> timer
-            let timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
+            let timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { timer in
                 sendRequest()
             }
             let prefix = "T:"
