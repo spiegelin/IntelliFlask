@@ -14,7 +14,6 @@ struct ContentView: View {
         case inicio
         case lista
         case favoritos
-        case bluetooth
     }
     
     var body: some View {
@@ -36,14 +35,6 @@ struct ContentView: View {
                     Label("Favoritos", systemImage: "heart")
                 }
                 .tag(Tab.favoritos)
-            
-            /*
-            HTTPRequest()
-                .tabItem {
-                    Label("Connect", systemImage: "bolt.horizontal.circle.fill")
-                }
-                .tag(Tab.bluetooth)
-            */
             
         }
         
